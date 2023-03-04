@@ -17,7 +17,7 @@ calc.addEventListener("click", function (event) {
       break;
     case "+/-":
       result.innerText = "-";
-      break;
+          break;
     default:
       result.innerText += value;
   }
