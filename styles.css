@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.calculator {
+  background-color: rgba(0, 0, 0, 0.855);
+  width: 340px;
+  height: 490px;
+  border-radius: 40px;
+}
+.container {
+  position: absolute;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+p {
+  color: white;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  font-size: 36px;
+}
+button {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #0bccdb;
+  opacity: 0.9;
+  color: white;
+  position: relative;
+}
+
+button:hover {
+  opacity: 1;
+}
+button:focus {
+  background: rgb(151, 230, 163);
+  background: linear-gradient(
+    270deg,
+    rgba(151, 230, 163, 1) 22%,
+    rgba(151, 230, 163, 1) 76%
+  );
+}
+.number_0 {
+  width: 145px;
+  border-radius: 40px;
+}
+/* Orange buttons */
+.divide-btn {
+  color: white;
+  background-color: orange;
+}
+
+.multi-btn {
+  color: white;
+  background-color: orange;
+}
+
+.btn-minus {
+  color: white;
+  background-color: orange;
+}
+
+.plus-btn {
+  color: white;
+  background-color: orange;
+}
+
+.equals-btn {
+  color: white;
+  background-color: orange;
+}
+
+/* Grey buttons */
+
+.clear-btn {
+  color: black;
+  background-color: #9f9f9f;
+}
+
+.plus_or_minus {
+  color: black;
+  background-color: #9f9f9f;
+}
+.percent-btn {
+  color: black;
+  background-color: #9f9f9f;
+}
